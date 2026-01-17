@@ -1,46 +1,40 @@
-## Hi there 👋
+## About Me
 
-## ハッカソン
+Web アプリケーション開発を中心に、  
+要件整理・API 設計・アーキテクチャ設計を意識した開発に取り組んでいます。
 
-### 1. 資格取得計画作成 Web アプリケーション (2025/8/23 – 2025/12/31／ハッカソン期間:〜9/21)
+業務では社内システムの刷新・静的サイト化に従事し、  
+個人およびハッカソンでは TypeScript / OpenAPI / レイヤードアーキテクチャを軸に  
+「変更に耐えられる構造」を意識した実装を行っています。
 
-#### 担当
-| 工程 | 担当内容 |
-| --- | --- |
-| 要件整理 | ユーザー課題整理、学習計画生成フローの設計 |
-| フロントエンド | Next.js App Router による画面実装 |
-| API 設計 | OpenAPI による API 設計 |
-| AI | Vertex AI のプロンプト設計 |
+## Hackathon Projects
 
-#### 構成
-| 構成 | 内容 |
-| --- | --- |
-| 言語 | TypeScript |
-| DB | PostgreSQL |
-| フレームワーク | Next.js, React, DrizzleORM |
-| コンテナ | Docker |
-| クラウド(GCP) | Vertex AI, Cloud Run, Cloud SQL |
+### 🎯 資格取得計画作成 Web アプリケーション
 
----
+（2025 Hackathon / Team Development）
+🔗 [https://github.com/study-basic-hackathon/lazy-bear](https://github.com/study-basic-hackathon/lazy-bear)
 
-### 2. 華展の写真管理アプリケーション (2025/5/18 – 2025/10/31／ハッカソン:〜6/22)
-
-#### 担当
-| 工程 | 担当内容 |
-| --- | --- |
-| API 実装 | 文字情報・画像保存用 API（GET / POST / PUT / DELETE）の実装 |
-| リファクタリング | 単一ファイルからレイヤードアーキテクチャへ修正。ハッカソン後、Result 型の実装 |
-
-#### 構成
-| 構成 | 内容 |
-| --- | --- |
-| 言語 | JavaScript（バックエンド）、TypeScript（フロントエンド） |
-| DB | PostgreSQL |
-| フレームワーク | React, express |
-| コンテナ | Docker |
-| クラウド(AWS) | EC2, S3 |
+* **概要**
+  AI を用いて資格取得に向けた学習計画を自動生成する Web アプリケーション
+* **担当**
+  要件整理、学習計画生成フロー設計、OpenAPI による API 設計、Next.js による画面実装、Vertex AI プロンプト設計
+* **技術**
+  TypeScript / Next.js / React / OpenAPI / PostgreSQL / Docker / Vertex AI / Cloud Run / Cloud SQL
 
 ---
+
+### 🌸 華展の写真管理 Web アプリケーション
+
+（2025 Hackathon / Team Development）
+🔗 [https://github.com/study-basic-hackathon/album](https://github.com/study-basic-hackathon/album)
+
+* **概要**
+  華展の写真と付随情報を管理・閲覧する Web アプリケーション
+* **担当**
+  REST API（CRUD）実装、レイヤードアーキテクチャへのリファクタリング、Result 型によるエラーハンドリング導入
+* **技術**
+  JavaScript / TypeScript / React / express / PostgreSQL / Docker / AWS（EC2, S3）
+
 <!--
 **Hayochan-man/Hayochan-man** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
